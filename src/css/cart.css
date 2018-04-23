@@ -1,0 +1,194 @@
+.top-hd {
+  width: 100%;
+  height: 2.1rem;
+  background: linear-gradient(to right, #900757, #f81c5a);
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+}
+
+.top-hd h3 {
+  font-size: 0.75rem;
+  line-height: 2.1rem;
+  text-align: center;
+}
+
+.top-hd .tp-shopcart-edit {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 0.75rem;
+  right: 0.65rem;
+}
+
+.icon_selected {
+  width: 0.875rem;
+  height: 0.875rem;
+  border-radius: 50%;
+  background-color: #ec1a5a;
+  font-size: 0.65rem;
+  text-align: center;
+  line-height: 0.875rem;
+  color: #fff;
+  margin-right: 0.25rem;
+  flex: 0 0 0.875rem;
+}
+
+.goods-list-wrap {
+  margin-bottom: 1.85rem;
+}
+
+.goods-list .goods-item {
+  color: #333;
+}
+
+.goods-list .goods-item .goods-items-hd {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+}
+
+.goods-list .goods-item .goods-items-hd h4 {
+  font-size: 0.6rem;
+}
+
+.goods-list .goods-item .goods-item-bd {
+  height: 4.55rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-l {
+  margin-right: 0.25rem;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-l a {
+  display: block;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-l a img {
+  width: 3.95rem;
+  height: 3.95rem;
+  vertical-align: top;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-r {
+  font-size: 0.475rem;
+  height: 3.95rem;
+  letter-spacing: 0.075rem;
+  line-height: 0.6rem;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-r .goods-item-sku .sku-name {
+  color: #666;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-r .goods-item-sku .sku-value {
+  color: #ec1a5a;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-r .yx-sjicon-wrap {
+  width: 1.4rem;
+  height: 0.375rem;
+  background: url(../img/mobiphone.png) no-repeat;
+  background-size: contain;
+  margin-top: 0.15rem;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-r .goods-item-price {
+  color: #ec1a5a;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-r .goods-item-edit-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 1rem;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-r .goods-item-edit-wrap .edit-count-wrap {
+  width: 2.75rem;
+  height: 0.8rem;
+  border: 0.025rem solid #848484;
+  border-radius: 0.05rem;
+  overflow: hidden;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-r .goods-item-edit-wrap .edit-count-wrap span {
+  float: left;
+  border-left: 0.025rem solid #848484;
+  font-size: 0.6rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  padding: 0 0.2rem;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-r .goods-item-edit-wrap .edit-count-wrap span:first-child {
+  border-left: none;
+}
+
+.goods-list .goods-item .goods-item-bd .goods-item-bd-r .goods-item-edit-wrap .edit-btn {
+  font-size: 0.75rem;
+}
+
+.goods-list .goods-item .goods-item-sep {
+  width: 100%;
+  height: 0.45rem;
+  background-color: #eeeeee;
+}
+
+.goods-account-wrap {
+  width: 100%;
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  overflow: hidden;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+}
+
+.goods-account-wrap .account-l {
+  float: left;
+  font-size: 0.65rem;
+}
+
+.goods-account-wrap .account-l a {
+  display: block;
+}
+
+.goods-account-wrap .account-l a i {
+  display: inline-block;
+}
+
+.goods-account-wrap .account-r {
+  display: flex;
+  justify-content: space-between;
+  width: 9.8rem;
+  float: right;
+  font-size: 0.65rem;
+}
+
+.goods-account-wrap .account-r .account-r-sum span:first-child {
+  font-size: 0.55rem;
+}
+
+.goods-account-wrap .account-r .account-r-sum span:last-child {
+  color: #ec1a5a;
+}
+
+.goods-account-wrap .account-r .account-r-settlement {
+  color: #eee;
+  background: linear-gradient(to right, #910758, #f71c5a);
+  width: 4.75rem;
+  text-align: center;
+}

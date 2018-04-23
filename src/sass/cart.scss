@@ -1,0 +1,182 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+//定义设计图宽度
+$designWidth:640px;
+$page-padding:px2rem(20px);
+$car-settlement-h:px2rem(74px);
+//头部
+.top-hd {
+	width:100%;
+	height:px2rem(84px);
+	background:linear-gradient(to right,#900757,#f81c5a);
+	color:rgba(255,255,255,.9);
+	position:relative;
+	h3 {
+		font-size:px2rem(30px);
+		line-height:px2rem(84px);
+		text-align:center;
+	}
+	.tp-shopcart-edit {
+		font-size:px2rem(28px);
+		color:rgba(255,255,255,.8);
+		position:absolute;
+		top:px2rem(30px);
+		right:px2rem(26px);
+	}
+}
+// 购物车列表模块
+.icon_selected {
+			width:px2rem(35px);
+			height:px2rem(35px);
+			border-radius:50%;
+			background-color:#ec1a5a;
+			font-size:px2rem(26px);
+			text-align:center;
+			line-height:px2rem(35px);
+			color:#fff;
+			margin-right:px2rem(10px);
+			flex:0 0 px2rem(35px);
+		}
+.goods-list-wrap {
+	margin-bottom:$car-settlement-h;
+}
+.goods-list {
+	.goods-item {
+		color:#333;
+		.goods-items-hd {
+			border-top:1px solid #ccc;
+			border-bottom:1px solid #ccc;
+			height:px2rem(60px);
+			display:flex;
+			align-items:center;
+			padding:0 px2rem(20px);
+			box-sizing:border-box;
+			h4 {
+				font-size:px2rem(24px);
+			}
+
+		} 
+		.goods-item-bd {
+			height:px2rem(182px);
+			box-sizing:border-box;
+			display:flex;
+			justify-content:flex-start;
+			align-items:center;
+			padding:0 px2rem(20px);
+			.goods-item-bd-l {
+				margin-right:px2rem(10px);
+				a {
+					display:block;
+					img {
+						width:px2rem(158px);
+						height:px2rem(158px);
+						vertical-align:top;
+					}
+				}
+			}
+			.goods-item-bd-r {
+				font-size:px2rem(19px);
+				height:px2rem(158px);
+				letter-spacing:px2rem(3px);
+				line-height:px2rem(24px);
+				.goods-item-sku {
+					.sku-name {
+						color:#666;
+					}
+					.sku-value {
+						color:#ec1a5a;
+					}
+				}
+				.yx-sjicon-wrap {
+					width:px2rem(56px);
+					height:px2rem(15px);
+					background:url(../img/mobiphone.png) no-repeat;
+					background-size:contain;
+					margin-top:px2rem(6px);
+				}
+				.goods-item-price {
+					color:#ec1a5a;
+				}
+				.goods-item-edit-wrap {
+					display:flex;
+					justify-content:space-between;
+					align-items:flex-end;
+					height:px2rem(40px);
+					.edit-count-wrap {
+						width:px2rem(110px);
+						height:px2rem(32px);
+						border:px2rem(1px) solid #848484;
+						border-radius:px2rem(2px);
+						overflow:hidden;
+						span {
+							float:left;
+							border-left:px2rem(1px) solid #848484;
+							font-size:px2rem(24px);
+							height:px2rem(32px);
+							line-height:px2rem(32px);
+							padding:0 px2rem(8px);
+							&:first-child {
+								border-left:none;
+							}
+						}
+					}
+					.edit-btn {
+						font-size:px2rem(30px);
+					}
+				}
+			}
+		}
+		.goods-item-sep {
+			width:100%;
+			height:px2rem(18px);
+			background-color:#eeeeee;
+		}
+	}
+}
+
+.goods-account-wrap {
+	width:100%;
+	height:$car-settlement-h;
+	line-height:$car-settlement-h;
+	background:#fff;
+	position:fixed;
+	bottom:0;
+	left:0;
+	z-index:1000;
+	overflow:hidden;
+	padding-left:$page-padding;
+	box-sizing:border-box;
+	.account-l {
+		float:left;
+		font-size:px2rem(26px);
+		a {
+			display:block;
+			i {
+				display:inline-block;
+			}
+		}
+	}
+	.account-r {
+		display:flex;
+		justify-content:space-between;
+		width:px2rem(392px);
+		float:right;
+		font-size:px2rem(26px);
+		.account-r-sum {
+			span {
+				&:first-child {
+					font-size:px2rem(22px);
+				}
+				&:last-child {
+					color:#ec1a5a;
+				}
+			}
+		}
+		.account-r-settlement {
+			color:#eee;
+			background:linear-gradient(to right,#910758,#f71c5a);
+			width:px2rem(190px);
+			text-align:center;
+		}
+	}
+}
